@@ -1,0 +1,777 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d10" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d9" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d8" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d7" for="edge" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="BẢO ĐẢM AN TOÀN CHO NGƯỜI">
+      <data key="d0">BẢO ĐẢM AN TOÀN CHO NGƯỜI</data>
+      <data key="d1">organization</data>
+      <data key="d2">BẢO ĐẢM AN TOÀN CHO NGƯỜI is a fire safety organization.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Quy định chung">
+      <data key="d0">Quy định chung</data>
+      <data key="d1">category</data>
+      <data key="d2">Quy định chung is a category of regulations for fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Các yêu cầu trong phần này nhằm bảo đảm">
+      <data key="d0">Các yêu cầu trong phần này nhằm bảo đảm</data>
+      <data key="d1">category</data>
+      <data key="d2">"Các yêu cầu trong phần này nhằm bảo đảm is a category of regulations for fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Thoát nạn cho người kịp thời và không bị cản trở">
+      <data key="d0">Thoát nạn cho người kịp thời và không bị cản trở</data>
+      <data key="d1">event</data>
+      <data key="d2">Thoát nạn cho người kịp thời và không bị cản trở is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Cứu nạn là quá trình tự di chuyển có tổ chức của người ra bên ngoài">
+      <data key="d0">Cứu nạn là quá trình tự di chuyển có tổ chức của người ra bên ngoài</data>
+      <data key="d1">event</data>
+      <data key="d2">Cứu nạn là quá trình tự di chuyển có tổ chức của người ra bên ngoài is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Di chuyển không tự chủ của nhóm người ít có khả năng vận động">
+      <data key="d0">Di chuyển không tự chủ của nhóm người ít có khả năng vận động</data>
+      <data key="d1">event</data>
+      <data key="d2">Di chuyển không tự chủ của nhóm người ít có khả năng vận động is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Thoát nạn được thực hiện theo các đường thoát nạn qua các lối ra thoát nạn">
+      <data key="d0">Thoát nạn được thực hiện theo các đường thoát nạn qua các lối ra thoát nạn</data>
+      <data key="d1">event</data>
+      <data key="d2">Thoát nạn được thực hiện theo các đường thoát nạn qua các lối ra thoát nạn is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Cứu nạn là sự di chuyển cưỡng bức của người ra bên ngoài">
+      <data key="d0">Cứu nạn là sự di chuyển cưỡng bức của người ra bên ngoài</data>
+      <data key="d1">event</data>
+      <data key="d2">Cứu nạn là sự di chuyển cưỡng bức của người ra bên outdoors is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Sự di chuyển cưỡng bức của người ra bên ngoài khi họ bị các yếu tố nguy hiểm của đám cháy tác động">
+      <data key="d0">Sự di chuyển cưỡng bức của người ra bên ngoài khi họ bị các yếu tố nguy hiểm của đám cháy tác động</data>
+      <data key="d1">event</data>
+      <data key="d2">Sự di chuyển cưỡng bức của người ra bên outdoors khi họ bị các yếu tố nguy hiểm của đám cháy tác động is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Sự di chuyển cưỡng bức của người ra bên ngoài khi xuất hiện nguy cơ trực tiếp của các tác động đó">
+      <data key="d0">Sự di chuyển cưỡng bức của người ra bên ngoài khi xuất hiện nguy cơ trực tiếp của các tác động đó</data>
+      <data key="d1">event</data>
+      <data key="d2">Sự di chuyển cưỡng bức của người ra bên outdoors khi xuất hiện nguy cơ trực tiếp của các tác động đó is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Cứu nạn được thực hiện một cách tự chủ với sự trợ giúp của lực lượng chữa cháy hoặc nhân viên được huấn luyện chuyên nghiệp">
+      <data key="d0">Cứu nạn được thực hiện một cách tự chủ với sự trợ giúp của lực lượng chữa cháy hoặc nhân viên được huấn luyện chuyên nghiệp</data>
+      <data key="d1">event</data>
+      <data key="d2">Cứu nạn được thực hiện một cách tự chủ với sự trợ giúp của lực lượng chữa cháy hoặc nhân viên được huấn luyện chuyên nghiệp is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Sự trợ giúp của lực lượng chữa cháy hoặc nhân viên được huấn luyện chuyên nghiệp">
+      <data key="d0">Sự trợ giúp của lực lượng chữa cháy hoặc nhân viên được huấn luyện chuyên nghiệp</data>
+      <data key="d1">event</data>
+      <data key="d2">Sự trợ giúp của lực lượng chữa cháy hoặc nhân viên được huấn luyện chuyên nghiệp is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Bảo vệ người trên các đường thoát nạn phải được bảo đảm bằng tổ hợp các giải pháp bố trí mặt bằng - không gian, tiện nghi, kết cấu, kỹ thuật công trình và tổ chức">
+      <data key="d0">Bảo vệ người trên các đường thoát nạn phải được bảo đảm bằng tổ hợp các giải pháp bố trí mặt bằng - không gian, tiện nghi, kết cấu, kỹ thuật công trình và tổ chức</data>
+      <data key="d1">event</data>
+      <data key="d2">Bảo vệ người trên các đường thoát nạn phải được bảo đảm bằng tổ hợp các giải pháp bố trí mặt bằng - không gian, tiện nghi, kết cấu, kỹ thuật công trình và tổ chức is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Bảo vệ chống khói xâm nhập các đường thoát nạn của nhà và các phần nhà">
+      <data key="d0">Bảo vệ chống khói xâm nhập các đường thoát nạn của nhà và các phần nhà</data>
+      <data key="d1">event</data>
+      <data key="d2">Bảo vệ chống khói xâm nhập các đường thoát nạn của nhà và các phần nhà is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Các yêu cầu cơ bản về bảo vệ chống khói cho nhà được quy định tại Phụ lục D">
+      <data key="d0">Các yêu cầu cơ bản về bảo vệ chống khói cho nhà được quy định tại Phụ lục D</data>
+      <data key="d1">event</data>
+      <data key="d2">Các yêu cầu cơ bản về bảo vệ chống khói cho nhà được quy định tại Phụ lục D is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Các thiết bị điện của hệ thống bảo vệ chống cháy của nhà phải được cấp điện ưu tiên từ hai nguồn độc lập">
+      <data key="d0">Các thiết bị điện của hệ thống bảo vệ chống cháy của nhà phải được cấp điện ưu tiên từ hai nguồn độc lập</data>
+      <data key="d1">event</data>
+      <data key="d2">Các thiết bị điện của hệ thống bảo vệ chống cháy của nhà phải được cấp điện ưu tiên từ hai nguồn độc lập is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Hiệu quả của các giải pháp bảo đảm an toàn cho người khi cháy có thể được đánh giá bằng tính toán">
+      <data key="d0">Hiệu quả của các giải pháp bảo đảm an toàn cho người khi cháy có thể được đánh giá bằng tính toán</data>
+      <data key="d1">event</data>
+      <data key="d2">Hiệu quả của các giải pháp bảo đảm an toàn cho người khi cháy có thể được đánh giá bằng tính toán is an event related to fire safety.</data>
+      <data key="d3">chunk-300f2e89fcc49b5dcfd2188f6a69e9a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="người&quot;=">
+      <data key="d0">người"=</data>
+      <data key="d1">person</data>
+      <data key="d2">The person is discussing the importance of having a backup power source in electrical devices.</data>
+      <data key="d3">chunk-4f1a12c0ce9d8d8cd36d9821b8eee106</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="dụng cụ điện&quot; ">
+      <data key="d0">dụng cụ điện" </data>
+      <data key="d1">device</data>
+      <data key="d2">The device is a backup power source for electrical devices.</data>
+      <data key="d3">chunk-4f1a12c0ce9d8d8cd36d9821b8eee106</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="tầng&quot; ">
+      <data key="d0">tầng" </data>
+      <data key="d1">floor</data>
+      <data key="d2">The floor is on level 1 and has multiple exits.</data>
+      <data key="d3">chunk-4f1a12c0ce9d8d8cd36d9821b8eee106</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="đường đi&quot; ">
+      <data key="d0">đường đi" </data>
+      <data key="d1">hallway</data>
+      <data key="d2">The hallway leads to the floor and has multiple exits.</data>
+      <data key="d3">chunk-4f1a12c0ce9d8d8cd36d9821b8eee106</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="khu vực&quot; ">
+      <data key="d0">khu vực" </data>
+      <data key="d1">area</data>
+      <data key="d2">The area has multiple exits and is part of the floor.</data>
+      <data key="d3">chunk-4f1a12c0ce9d8d8cd36d9821b8eee106</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="sự cố cháy&quot; ">
+      <data key="d0">sự cố cháy" </data>
+      <data key="d1">fire </data>
+      <data key="d2">The fire is a hazard that requires a safe escape route.</data>
+      <data key="d3">chunk-4f1a12c0ce9d8d8cd36d9821b8eee106</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="khách&quot; ">
+      <data key="d0">khách" </data>
+      <data key="d1">guest</data>
+      <data key="d2">The guest needs to evacuate the building in case of a fire.</data>
+      <data key="d3">chunk-4f1a12c0ce9d8d8cd36d9821b8eee106</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="cầu thang bộ&quot; ">
+      <data key="d0">cầu thang bộ" </data>
+      <data key="d1">stairway</data>
+      <data key="d2">The stairway is a safe route for guests to evacuate.</data>
+      <data key="d3">chunk-4f1a12c0ce9d8d8cd36d9821b8eee106</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Hanoi Metro System">
+      <data key="d0">Hanoi Metro System</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Hanoi Metro System is a public transportation system in Hanoi, Vietnam.&lt;SEP&gt;The Hanoi Metro System is a type of public transportation.</data>
+      <data key="d3">chunk-e4922a44f95a8f091b76d70c8af520f1</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Vietnam">
+      <data key="d0">Vietnam</data>
+      <data key="d1">geo</data>
+      <data key="d2">Vietnam is the country where the Hanoi Metro System is located.&lt;SEP&gt;Vietnam is the country where the fire prevention ordinance is applicable.</data>
+      <data key="d3">chunk-2fec9ae8b11a40761c81ae80f669c97f&lt;SEP&gt;chunk-e4922a44f95a8f091b76d70c8af520f1</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Hanoi Metro Line 3">
+      <data key="d0">Hanoi Metro Line 3</data>
+      <data key="d1">event</data>
+      <data key="d2">Hanoi Metro Line 3 is a rail transport line in Hanoi, Vietnam.</data>
+      <data key="d3">chunk-e4922a44f95a8f091b76d70c8af520f1</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="loại ra thoát nạn">
+      <data key="d0">loại ra thoát nạn</data>
+      <data key="d1">category</data>
+      <data key="d2">a category of emergency exits</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="tầng">
+      <data key="d0">tầng</data>
+      <data key="d1">category</data>
+      <data key="d2">a category of floor</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="nghị pháp">
+      <data key="d0">nghị pháp</data>
+      <data key="d1">category</data>
+      <data key="d2">a category of regulations</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="căn hộ">
+      <data key="d0">căn hộ</data>
+      <data key="d1">category</data>
+      <data key="d2">a category of apartments</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="điện thoại">
+      <data key="d0">điện thoại</data>
+      <data key="d1">equipment</data>
+      <data key="d2">a type of equipment</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="thiết bị kỹ thuật">
+      <data key="d0">thiết bị kỹ thuật</data>
+      <data key="d1">equipment</data>
+      <data key="d2">a type of equipment</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="khu vực kỹ thuật">
+      <data key="d0">khu vực kỹ thuật</data>
+      <data key="d1">category</data>
+      <data key="d2">a category of technical area</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="bạn">
+      <data key="d0">bạn</data>
+      <data key="d1">category</data>
+      <data key="d2">a category of friends</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="tháng">
+      <data key="d0">tháng</data>
+      <data key="d1">category</data>
+      <data key="d2">a category of month</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="mặt đất">
+      <data key="d0">mặt đất</data>
+      <data key="d1">location</data>
+      <data key="d2">a location</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="phòng">
+      <data key="d0">phòng</data>
+      <data key="d1">category</data>
+      <data key="d2">a category of room</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="hành lang">
+      <data key="d0">hành lang</data>
+      <data key="d1">location</data>
+      <data key="d2">a location</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="cửa sổ">
+      <data key="d0">cửa sổ</data>
+      <data key="d1">equipment</data>
+      <data key="d2">a type of equipment</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="cầu thang bộ">
+      <data key="d0">cầu thang bộ</data>
+      <data key="d1">equipment</data>
+      <data key="d2">a type of equipment</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="thiết bị thoát nạn">
+      <data key="d0">thiết bị thoát nạn</data>
+      <data key="d1">equipment</data>
+      <data key="d2">a type of safety equipment</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="thiết bị chữa cháy">
+      <data key="d0">thiết bị chữa cháy</data>
+      <data key="d1">equipment</data>
+      <data key="d2">a type of fire extinguisher</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="cửa ra">
+      <data key="d0">cửa ra</data>
+      <data key="d1">equipment</data>
+      <data key="d2">a type of exit</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="đường đi">
+      <data key="d0">đường đi</data>
+      <data key="d1">location</data>
+      <data key="d2">a location</data>
+      <data key="d3">chunk-93767c00e812e3a08c195c162d7fb3a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="buồng thang bộ N1">
+      <data key="d0">buồng thang bộ N1</data>
+      <data key="d1">building feature</data>
+      <data key="d2">A fire-resistant stairwell is a standard feature in residential buildings with a height of up to 28m and a floor area of 500-550m2.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Nhà nhóm F1.3">
+      <data key="d0">Nhà nhóm F1.3</data>
+      <data key="d1">building type</data>
+      <data key="d2">A building type that requires a fire-resistant stairwell with specific conditions.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="F1.3">
+      <data key="d0">F1.3</data>
+      <data key="d1">building feature type</data>
+      <data key="d2">A specific type of building feature that requires a fire-resistant stairwell.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="diện tích căn hộ">
+      <data key="d0">diện tích căn hộ</data>
+      <data key="d1">room size</data>
+      <data key="d2">The size of the room, including the area of the balcony and/or loft.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Phòng vệ sinh">
+      <data key="d0">Phòng vệ sinh</data>
+      <data key="d1">room type</data>
+      <data key="d2">A room type that is not included in the fire safety calculations.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Hình I.3">
+      <data key="d0">Hình I.3</data>
+      <data key="d1">fire safety diagram</data>
+      <data key="d2">A diagram illustrating the fire safety requirements for a building.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Hình I.4 a">
+      <data key="d0">Hình I.4 a</data>
+      <data key="d1">fire safety diagram</data>
+      <data key="d2">A diagram illustrating the fire safety requirements for a building.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Hình I.4 d">
+      <data key="d0">Hình I.4 d</data>
+      <data key="d1">fire safety diagram</data>
+      <data key="d2">A diagram illustrating the fire safety requirements for a building.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Hành lang chung">
+      <data key="d0">Hành lang chung</data>
+      <data key="d1">corridor</data>
+      <data key="d2">A corridor that connects different areas of a building.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Hành lang thoát nạn">
+      <data key="d0">Hành lang thoát nạn</data>
+      <data key="d1">escape route</data>
+      <data key="d2">A path that leads to the outside of a building.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Báo cháy địa chỉ">
+      <data key="d0">Báo cháy địa chỉ</data>
+      <data key="d1">addressable fire alarm</data>
+      <data key="d2">A type of fire alarm that can be addressed to a specific location.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Hệ thống chữa cháy tự động">
+      <data key="d0">Hệ thống chữa cháy tự động</data>
+      <data key="d1">automatic fire suppression system</data>
+      <data key="d2">A system that automatically extinguishes fires in a building.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Sprinkler">
+      <data key="d0">Sprinkler</data>
+      <data key="d1">sprinkler system</data>
+      <data key="d2">A type of fire suppression system that uses water to extinguish fires.</data>
+      <data key="d3">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Vietnam Fire Prevention Ordinance">
+      <data key="d0">Vietnam Fire Prevention Ordinance</data>
+      <data key="d1">economic_policy</data>
+      <data key="d2">The Vietnam Fire Prevention Ordinance is a regulatory document outlining the standards for fire safety in buildings.</data>
+      <data key="d3">chunk-2fec9ae8b11a40761c81ae80f669c97f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Building Code">
+      <data key="d0">Building Code</data>
+      <data key="d1">building_code</data>
+      <data key="d2">The Building Code is a set of regulations governing the design, construction, and maintenance of buildings in Vietnam.</data>
+      <data key="d3">chunk-2fec9ae8b11a40761c81ae80f669c97f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Fire Safety Standard">
+      <data key="d0">Fire Safety Standard</data>
+      <data key="d1">fire_safety_standard</data>
+      <data key="d2">Fire safety standard refers to the guidelines and regulations for ensuring fire safety in buildings.</data>
+      <data key="d3">chunk-2fec9ae8b11a40761c81ae80f669c97f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Fire Alarm System">
+      <data key="d0">Fire Alarm System</data>
+      <data key="d1">fire_alarm_system</data>
+      <data key="d2">A fire alarm system is a network of sensors and detectors that alert occupants of a building of potential fire hazards.</data>
+      <data key="d3">chunk-2fec9ae8b11a40761c81ae80f669c97f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Smoke Detector">
+      <data key="d0">Smoke Detector</data>
+      <data key="d1">smoke_detector</data>
+      <data key="d2">A smoke detector is a device that detects smoke and alerts occupants of a building of a potential fire hazard.</data>
+      <data key="d3">chunk-2fec9ae8b11a40761c81ae80f669c97f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Emergency Exit">
+      <data key="d0">Emergency Exit</data>
+      <data key="d1">emergency_exit</data>
+      <data key="d2">An emergency exit is a door or route that provides a safe way for occupants to evacuate a building in case of an emergency.</data>
+      <data key="d3">chunk-2fec9ae8b11a40761c81ae80f669c97f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Fire Extinguisher">
+      <data key="d0">Fire Extinguisher</data>
+      <data key="d1">fire_extinguisher</data>
+      <data key="d2">A fire extinguisher is a device that can be used to put out small fires before they spread.</data>
+      <data key="d3">chunk-2fec9ae8b11a40761c81ae80f669c97f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Cửa Cố định">
+      <data key="d0">Cửa Cố định</data>
+      <data key="d1">category</data>
+      <data key="d2">Cửa cố định là một loại cửa có kích thước cố định và không có khả năng di chuyển.</data>
+      <data key="d3">chunk-e33a8e3700b72b07069ae470f4bdbfed</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="An toàn">
+      <data key="d0">An toàn</data>
+      <data key="d1">category</data>
+      <data key="d2">An toàn là một khái niệm liên quan đến việc phòng ngừa và giảm thiểu rủi ro.</data>
+      <data key="d3">chunk-e33a8e3700b72b07069ae470f4bdbfed</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Vấn đề">
+      <data key="d0">Vấn đề</data>
+      <data key="d1">category</data>
+      <data key="d2">Vấn đề là một tình huống khó khăn hoặc thách thức cần được giải quyết.</data>
+      <data key="d3">chunk-e33a8e3700b72b07069ae470f4bdbfed</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Khẩn cấp">
+      <data key="d0">Khẩn cấp</data>
+      <data key="d1">category</data>
+      <data key="d2">Khẩn cấp là một tình huống cần được xử lý nhanh chóng và quyết liệt.</data>
+      <data key="d3">chunk-e33a8e3700b72b07069ae470f4bdbfed</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Thang leo">
+      <data key="d0">Thang leo</data>
+      <data key="d1">equipment</data>
+      <data key="d2">Thang leo là một thiết bị giúp người di chuyển lên cao.</data>
+      <data key="d3">chunk-e33a8e3700b72b07069ae470f4bdbfed</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Cầu nối">
+      <data key="d0">Cầu nối</data>
+      <data key="d1">structure</data>
+      <data key="d2">Cầu nối là một kết cấu giúp nối hai khu vực hoặc tầng khác nhau.</data>
+      <data key="d3">chunk-e33a8e3700b72b07069ae470f4bdbfed</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Trang bị">
+      <data key="d0">Trang bị</data>
+      <data key="d1">equipment</data>
+      <data key="d2">Trang bị là một thiết bị hoặc vật dụng được sử dụng cho một mục đích cụ thể.</data>
+      <data key="d3">chunk-e33a8e3700b72b07069ae470f4bdbfed</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Đoạn đường thoát nạn">
+      <data key="d0">Đoạn đường thoát nạn</data>
+      <data key="d1">structure</data>
+      <data key="d2">Đoạn đường thoát nạn là một phần của hệ thống thoát nạn trong một tòa nhà hoặc công trình.</data>
+      <data key="d3">chunk-e33a8e3700b72b07069ae470f4bdbfed</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Gian phòng">
+      <data key="d0">Gian phòng</data>
+      <data key="d1">location</data>
+      <data key="d2">A room or area in a building, typically used for a specific purpose.</data>
+      <data key="d3">chunk-5fe31f1595031369ef290a5e138b2b6b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Nhà">
+      <data key="d0">Nhà</data>
+      <data key="d1">location</data>
+      <data key="d2">A building or house.&lt;SEP&gt;Nhà là một công trình xây dựng được thiết kế để phục vụ mục đích sinh hoạt, làm việc, học tập, worship, giải trí, hoặc lưu trữ.</data>
+      <data key="d3">chunk-5fe31f1595031369ef290a5e138b2b6b&lt;SEP&gt;chunk-e42da63163fd32860d4308c4362e19e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Vietnam Railways">
+      <data key="d0">Vietnam Railways</data>
+      <data key="d1">organization</data>
+      <data key="d2">Vietnam Railways is the national railway company of Vietnam, responsible for the development and operation of the country's railway network.</data>
+      <data key="d3">chunk-42ae018efc225a2c07a8f92bbdd3b097</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="South Korea">
+      <data key="d0">South Korea</data>
+      <data key="d1">geo</data>
+      <data key="d2">South Korea is the host country of the 2022 Asian Games.</data>
+      <data key="d3">chunk-42ae018efc225a2c07a8f92bbdd3b097</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Noah Carter">
+      <data key="d0">Noah Carter</data>
+      <data key="d1">athlete</data>
+      <data key="d2">Noah Carter is a sprinter who set a new 100m sprint record at the World Athletics Championship.</data>
+      <data key="d3">chunk-42ae018efc225a2c07a8f92bbdd3b097</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Vật liệu xây dựng">
+      <data key="d0">Vật liệu xây dựng</data>
+      <data key="d1">organization</data>
+      <data key="d2">Vật liệu xây dựng được sử dụng cho nhà phụ thuộc vào công dụng và tính nguy hiểm cháy của vật liệu.</data>
+      <data key="d3">chunk-e42da63163fd32860d4308c4362e19e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Cầu thang bộ">
+      <data key="d0">Cầu thang bộ</data>
+      <data key="d1">event</data>
+      <data key="d2">Cầu thang bộ là một thiết bị dẫn người qua tầng trên xuống tầng dưới trong một tòa nhà, often used in buildings, especially in residential and commercial buildings.</data>
+      <data key="d3">chunk-e42da63163fd32860d4308c4362e19e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Các thông số hình học của gian phòng và đường thoát nạn">
+      <data key="d0">Các thông số hình học của gian phòng và đường thoát nạn</data>
+      <data key="d3">chunk-5fe31f1595031369ef290a5e138b2b6b</data>
+      <data key="d2">The geometric characteristics of the room.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <node id="Cấp nguy hiểm cháy kết cấu và bậc chịu lửa của nhà">
+      <data key="d0">Cấp nguy hiểm cháy kết cấu và bậc chịu lửa của nhà</data>
+      <data key="d3">chunk-5fe31f1595031369ef290a5e138b2b6b</data>
+      <data key="d2">The level of fire danger and fire-resistant materials used in the building.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1752082672</data>
+    </node>
+    <edge source="Hanoi Metro System" target="Vietnam">
+      <data key="d6">8.0</data>
+      <data key="d7">The Hanoi Metro System is located in Vietnam.</data>
+      <data key="d8">country and city relationship,infrastructure</data>
+      <data key="d9">chunk-e4922a44f95a8f091b76d70c8af520f1</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="Hanoi Metro System" target="Hanoi Metro Line 3">
+      <data key="d6">10.0</data>
+      <data key="d7">Hanoi Metro Line 3 is a part of the Hanoi Metro System.</data>
+      <data key="d8">event,line relationship,transportation network</data>
+      <data key="d9">chunk-e4922a44f95a8f091b76d70c8af520f1</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="buồng thang bộ N1" target="Nhà nhóm F1.3">
+      <data key="d6">8.0</data>
+      <data key="d7">A fire-resistant stairwell is a standard feature in residential buildings with a height of up to 28m and a floor area of 500-550m2.</data>
+      <data key="d8">building feature,building type</data>
+      <data key="d9">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="buồng thang bộ N1" target="diện tích căn hộ">
+      <data key="d6">9.0</data>
+      <data key="d7">The size of the room, including the area of the balcony and/or loft, is a critical factor in determining the type of fire-resistant stairwell needed.</data>
+      <data key="d8">building feature,room size</data>
+      <data key="d9">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="Phòng vệ sinh" target="Hình I.3">
+      <data key="d6">10.0</data>
+      <data key="d7">A room type that is not included in the fire safety calculations is not relevant to the fire-resistant stairwell requirements.</data>
+      <data key="d8">fire safety diagram,room type</data>
+      <data key="d9">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="Hình I.4 a" target="Hành lang thoát nạn">
+      <data key="d6">11.0</data>
+      <data key="d7">An escape route must be provided in a way that allows for safe evacuation of occupants in the event of a fire.</data>
+      <data key="d8">escape route,fire safety diagram</data>
+      <data key="d9">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="Hành lang thoát nạn" target="Báo cháy địa chỉ">
+      <data key="d6">12.0</data>
+      <data key="d7">Addressable fire alarms are required in areas where escape routes are not readily available.</data>
+      <data key="d8">addressable fire alarm,escape route</data>
+      <data key="d9">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="Hành lang thoát nạn" target="Hệ thống chữa cháy tự động">
+      <data key="d6">13.0</data>
+      <data key="d7">Automatic fire suppression systems are required in areas where escape routes are not readily available.</data>
+      <data key="d8">automatic fire suppression system,escape route</data>
+      <data key="d9">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="Hành lang thoát nạn" target="Sprinkler">
+      <data key="d6">14.0</data>
+      <data key="d7">Sprinkler systems are used to extinguish fires in areas where escape routes are not readily available.</data>
+      <data key="d8">escape route,sprinkler system</data>
+      <data key="d9">chunk-bf91bcdce1463daee820f32ec9aeeb2c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="Gian phòng" target="Nhà">
+      <data key="d6">10.0</data>
+      <data key="d7">Gian phòng is a room or area within the building.</data>
+      <data key="d8">building,interior</data>
+      <data key="d9">chunk-5fe31f1595031369ef290a5e138b2b6b</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="Gian phòng" target="Các thông số hình học của gian phòng và đường thoát nạn">
+      <data key="d6">8.0</data>
+      <data key="d7">The geometric characteristics of the room.</data>
+      <data key="d8">design,geometry</data>
+      <data key="d9">chunk-5fe31f1595031369ef290a5e138b2b6b</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+    <edge source="Nhà" target="Cấp nguy hiểm cháy kết cấu và bậc chịu lửa của nhà">
+      <data key="d6">9.0</data>
+      <data key="d7">The level of fire danger and fire-resistant materials used in the building.</data>
+      <data key="d8">building codes,fire safety</data>
+      <data key="d9">chunk-5fe31f1595031369ef290a5e138b2b6b</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1752082672</data>
+    </edge>
+  </graph>
+</graphml>
