@@ -1,15 +1,11 @@
-# Ultra-minimal for Railway 4GB limit
 fastapi==0.104.1
-uvicorn==0.24.0
+uvicorn[standard]==0.24.0
 pydantic==2.5.0
 requests==2.31.0
+numpy==1.26.0
 python-dotenv==1.0.0
-python-multipart==0.0.6
-
-# Essential only - NO PyTorch/Transformers
-networkx==3.2.1
-numpy==1.24.4
+setuptools==69.0.0
+lightrag
+networkx>=3.0
 nano-vectordb==0.0.4.3
-
-# Try LightRAG without heavy dependencies
-# We might need to install manually or use a lighter alternative
+python-multipart==0.0.6

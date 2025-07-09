@@ -111,12 +111,42 @@ class QuestionResponse(BaseModel):
     status: str
 
 
+import zipfile
+import urllib.request
+
+
 @app.on_event("startup")
 async def startup_event():
     """Initialize RAG system on startup"""
     global rag_instance
 
     print("🔄 Initializing RAG system...")
+
+    # Download data if not exists
+    if not os.path.exists(WORKING_DIR):
+        print("📥 Downloading RAG data...")
+        try:
+            # Download from GitHub (replace with your actual repo URL)
+            data_url = "https://github.com/YOUR_USERNAME/fire-safety-data/archive/refs/heads/main.zip"
+            urllib.request.urlretrieve(data_url, "data.zip")
+
+            # Extract
+            with zipfile.ZipFile("data.zip", 'r') as zip_ref:
+                zip_ref.extractall("./temp")
+
+            # Move dickens folder to correct location
+            import shutil
+            shutil.move("./temp/fire-safety-data-main/dickens", WORKING_DIR)
+
+            # Cleanup
+            os.remove("data.zip")
+            shutil.rmtree("./temp")
+            print("✅ Data downloaded successfully!")
+
+        except Exception as e:
+            print(f"⚠️ Could not download data: {e}")
+            print("🔄 Creating new empty data directory...")
+            os.makedirs(WORKING_DIR, exist_ok=True)
 
     cloudflare_worker = CloudflareWorker(
         cloudflare_api_key=CLOUDFLARE_API_KEY,
