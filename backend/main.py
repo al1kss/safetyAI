@@ -127,7 +127,7 @@ async def startup_event():
         print("📥 Downloading RAG data...")
         try:
             # Download from GitHub (replace with your actual repo URL)
-            data_url = "https://github.com/YOUR_USERNAME/fire-safety-data/archive/refs/heads/main.zip"
+            data_url = "https://github.com/al1kss/safetyAI/archive/refs/heads/main.zip"
             urllib.request.urlretrieve(data_url, "data.zip")
 
             # Extract
