@@ -1,0 +1,18 @@
+# Exclude unnecessary files from Railway build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+.gitignore
+*.log
+.env.local
+.DS_Store
+*.md
+.vscode/
+.idea/
+
+# Exclude any large temporary files
+*.tmp
+*.cache
+lightrag_cloudflare_worker_demo.log
