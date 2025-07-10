@@ -1,6 +1,5 @@
-# main.py - FastAPI Backend
 from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware # used for connection for backend and frontend kinda
 from pydantic import BaseModel
 import asyncio
 from lightrag import LightRAG, QueryParam
@@ -11,7 +10,7 @@ import numpy as np
 from typing import List
 
 
-# Your CloudflareWorker class
+# accessing cloudflare api
 class CloudflareWorker:
     def __init__(self, cloudflare_api_key: str, api_base_url: str, llm_model_name: str, embedding_model_name: str):
         self.cloudflare_api_key = cloudflare_api_key
@@ -76,30 +75,27 @@ class CloudflareWorker:
         return result
 
 
-# Configuration
+# configuration
 CLOUDFLARE_API_KEY = os.getenv('CLOUDFLARE_API_KEY', 'lMbDDfHi887AK243ZUenm4dHV2nwEx2NSmX6xuq5')
 API_BASE_URL = "https://api.cloudflare.com/client/v4/accounts/07c4bcfbc1891c3e528e1c439fee68bd/ai/run/"
 EMBEDDING_MODEL = '@cf/baai/bge-m3'
 LLM_MODEL = "@cf/meta/llama-3.2-3b-instruct"
 WORKING_DIR = "./dickens"
 
-# Initialize FastAPI
+#setting up FastAPI cnnection (bacend)
 app = FastAPI(title="Fire Safety AI Assistant API", version="1.0.0")
 
-# Enable CORS for frontend
+#have to enable CORS for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, replace with your frontend domain
+    allow_origins=["*"], # change to fronend domain (if we have one in future) for now we allow all
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Global RAG instance
 rag_instance = None
 
-
-# Pydantic models
 class QuestionRequest(BaseModel):
     question: str
     mode: str = "hybrid"  # naive, local, global, hybrid
@@ -111,42 +107,12 @@ class QuestionResponse(BaseModel):
     status: str
 
 
-import zipfile
-import urllib.request
-
-
 @app.on_event("startup")
 async def startup_event():
     """Initialize RAG system on startup"""
     global rag_instance
 
     print("🔄 Initializing RAG system...")
-
-    # Download data if not exists
-    if not os.path.exists(WORKING_DIR):
-        print("📥 Downloading RAG data...")
-        try:
-            # Download from GitHub (replace with your actual repo URL)
-            data_url = "https://github.com/al1kss/safetyAI/archive/refs/heads/main.zip"
-            urllib.request.urlretrieve(data_url, "data.zip")
-
-            # Extract
-            with zipfile.ZipFile("data.zip", 'r') as zip_ref:
-                zip_ref.extractall("./temp")
-
-            # Move dickens folder to correct location
-            import shutil
-            shutil.move("./temp/fire-safety-data-main/dickens", WORKING_DIR)
-
-            # Cleanup
-            os.remove("data.zip")
-            shutil.rmtree("./temp")
-            print("✅ Data downloaded successfully!")
-
-        except Exception as e:
-            print(f"⚠️ Could not download data: {e}")
-            print("🔄 Creating new empty data directory...")
-            os.makedirs(WORKING_DIR, exist_ok=True)
 
     cloudflare_worker = CloudflareWorker(
         cloudflare_api_key=CLOUDFLARE_API_KEY,
@@ -176,11 +142,9 @@ async def startup_event():
 async def root():
     return {"message": "🔥 Fire Safety AI Assistant API", "status": "running"}
 
-
 @app.get("/health")
 async def health_check():
     return {"status": "healthy", "rag_ready": rag_instance is not None}
-
 
 @app.post("/ask", response_model=QuestionResponse)
 async def ask_question(request: QuestionRequest):
@@ -225,10 +189,10 @@ async def get_available_modes():
     }
 
 
-# Example questions endpoint
+
 @app.get("/examples")
 async def get_example_questions():
-    """Get example questions users can ask"""
+    """Get example questions users can ask""" # i dont know why but u included this part
     return {
         "examples": [
             "What are the requirements for emergency exits?",

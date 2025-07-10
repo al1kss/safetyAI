@@ -286,7 +286,7 @@
         <div class="examples-container">
             <div class="examples-title">Quick questions to try:</div>
             <div class="example-questions" id="exampleQuestions">
-                <!-- Example questions will be loaded here -->
+                <!-- Example questions will be loaded here (if we want to change change beckend /example) -->
             </div>
         </div>
 
@@ -305,8 +305,8 @@
     </div>
 
     <script>
-        // Configuration
-        const API_BASE_URL = 'https://al1kss-safetyai.hf.space'; // Change this to your deployed backend URL
+        // configuration
+        const API_BASE_URL = 'https://al1kss-safetyai.hf.space'; // backend url
 
         // DOM elements
         const chatMessages = document.getElementById('chatMessages');
@@ -318,24 +318,22 @@
         let currentMode = 'hybrid';
         let isLoading = false;
 
-        // Initialize
+        // initialize
         document.addEventListener('DOMContentLoaded', function() {
             loadExampleQuestions();
             setupEventListeners();
         });
 
         function setupEventListeners() {
-            // Send button click
             sendButton.addEventListener('click', sendMessage);
 
-            // Enter key press
             chatInput.addEventListener('keypress', function(e) {
                 if (e.key === 'Enter' && !isLoading) {
                     sendMessage();
                 }
             });
 
-            // Mode selection
+            // mode selection
             modeButtons.forEach(btn => {
                 btn.addEventListener('click', function() {
                     modeButtons.forEach(b => b.classList.remove('active'));
@@ -347,7 +345,7 @@
 
         async function loadExampleQuestions() {
             try {
-                const response = await fetch(`${API_BASE_URL}/examples`);
+                const response = await fetch(`${API_BASE_URL}/examples`); // to access example questions from json of backend
                 const data = await response.json();
 
                 exampleQuestions.innerHTML = '';
@@ -370,11 +368,11 @@
             const message = chatInput.value.trim();
             if (!message || isLoading) return;
 
-            // Add user message
+            // upload user message
             addMessage(message, 'user');
             chatInput.value = '';
 
-            // Show loading
+            // show (fake) loading
             isLoading = true;
             updateSendButton();
             const loadingMessage = addLoadingMessage();
@@ -397,10 +395,10 @@
 
                 const data = await response.json();
 
-                // Remove loading message
+                // emove loading message
                 loadingMessage.remove();
 
-                // Add bot response
+                // add bot response
                 addMessage(data.answer, 'bot');
 
             } catch (error) {
